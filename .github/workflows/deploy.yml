@@ -24,6 +24,7 @@ jobs:
         with:
           repository: jeffersonrcs-cmd/lynknotes
           ref: main
+          token: ${{ secrets.SOURCE_REPO_READ_TOKEN }}
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
